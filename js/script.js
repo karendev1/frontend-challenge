@@ -4,8 +4,6 @@ const url = "https://br.ongame.net/api/challenge/items/";
 
 //Função para inserir os itens da API no HTML
 
-
-
 function inserirItens() {
     const recompensa = document.getElementById('recompensa');
     recompensa.innerHTML = '';
@@ -45,7 +43,7 @@ function inserirItens() {
             itemResgate.classList.add('resgate');
             const rBtn = document.createElement('p');
             const rBtn2 = document.createElement('img');
-            rBtn2.style.width = '24px';
+            rBtn2.style.width = '30px';
 
             rBtn.innerHTML = "ITEM RESGATADO";
 
